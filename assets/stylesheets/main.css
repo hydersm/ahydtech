@@ -308,6 +308,18 @@ ul {
   padding-bottom: 10px;
 }
 
+#accordion .ui-accordion-header-active {
+  border-bottom: 4px solid rgb(26, 95, 131);
+  color: rgb(26, 95, 131);
+  font-weight: normal;
+}
+
+#accordion h3:hover {
+  border-bottom: 4px solid rgb(26, 95, 131);
+  color: rgb(26, 95, 131);
+  font-weight: normal;
+}
+
 #accordion p {
   padding: 0;
   padding-bottom: 15px;
