@@ -11,8 +11,17 @@
 		<!--<link rel="stylesheet" href="/resources/demos/style.css">-->
 		<script>
 			$(function() {
-			$( "#accordion" ).accordion({
-				heightStyle: "content"
+			$(".accordion").accordion({
+				heightStyle: "content",
+				autoHeight: false,
+				collapsible: true,
+				active: false,
+			});
+			$(".accordion2").accordion({
+				heightStyle: "content",
+				autoHeight: false,
+				collapsible: true,
+				active: false,
 			});
 			});
 		</script>
@@ -34,52 +43,74 @@
 		</header>
 		<section class="row">
 			<div class="container">
-				<div id="accordion">
-					<h3>Home</h3>
-					<div>
-						<p>
-							Ahydtech Geomorphic is a Canadian company located in Guelph, Ontario. The company is at the front of advanced and innovative technology in Fluvial Geomorphology, Hydrology, Hydraulic, Stormwater Management, Environmental Assessment and Municipal Services. AHYDTECH can provide services in field measurement, hydrologic and hydraulic modeling, numerical modeling, Coastal Engineering and Municipal Environmental Assessment.
-						</p>
-					</div>
+				<h2>Home</h2>
+				
+				<p>
+					AHYDTECH Geomorphic is a Canadian company located in Guelph, Ontario. The company is at the front of advanced and innovative technology in Fluvial Geomorphology, Coastal Engineering, Hydrology, Hydraulic Monitoring, Stormwater Management and Environmental Assessment. AHYDTECH can provide services in Field Measurement, Hydrologic and Hydraulic Modeling, Numerical Modeling, Coastal Engineering and Municipal Environmental Assessment. Through the application of innovative science and fluvial geomorphic principles, AHYDTECH Geomorphic can provide the highest quality of services to all of our clients.
+				</p>
+
+				<div class="accordion">
 					<h3>Fluvial Geomophology</h3>
 					<div>
-						<p>	
-							AHYDTECH Geomorphic has highly qualified expertise in fluvial geomorphology. The company is dedicated to provide services to its clients on critical issues of fluvial processes in natural environment through applying innovative science and fluvial geomorphic principles.
-						</p>
 						<p>
-							Fluvial Geomorphic Capabilties:
-							<ul>
-								<li>Natural Channel Design</li>
-								<li>Channel Restoration</li>
-								<li>Meander Belt &amp; Erosion Hazard Analysis</li>
-								<li>Bank Erosion Protection</li>
-								<li>Erosion and Sediment Control</li>
-								<li>Sediment Transport Analysis &amp; Modeling</li>
-								<li>Field Geomorphic Assessment &amp; Monitoring</li>							
-							</ul>
+							AHYDTECH Geomorphic staff has highly qualified expertise in fluvial geomorphology. The company is dedicated to providing services on critical issues of fluvial processes in natural environments. AHYDTECH staff have experience in the following fluvial geomorphology methods:
 						</p>
-						<p>
-							Fluvial Geomorphic Analysis for Following Studies/Services:
-							<ul>
-								<li>Subwatershed Study</li>
-								<li>Subdivision &amp; Environmental Impact Report</li>
-								<li>Municipal Sewer and Watermain Water Course Crossing</li>
-								<li>Road Construction &amp; Widening</li>
-								<li>Bridge &amp; Culvert Installation/Replacement</li>						
-							</ul>
-						</p>
+						
+						<div class="accordion2 bullets">
+							<h3>Natural Channel Design-Channel Restoration</h3>
+							<div>
+								<p>
+									Natural Channel Design involves techniques to restore or replicate fluvial geomorphic forms, functions and processes of a stream channel through field geomorphic assessment, conceptual design and detail design. It is an application of fluvial geomorphology to design and construct stable channels that do not aggrade or degrade over time and to maximize stream functions given site constraints, which supports aquatic and riparian ecosystems of composition and quality. NCD uses hydrology, hydraulic and fluvial geomorphic responses, bankfull and/or reference reach parameters to determine design parameters through utilizing complex and inter-related processes of aquatic and riparian ecosystem. The AHYDTECH staff has a broad knowledge and experience in conceptual and detail design of natural channel system.
+								</p>
+							</div>
+							<h3>Meaner Belt Width &amp; Hazard Limit</h3>
+							<div>
+								<p>
+									Rivers and streams have natural fluvial processes to migrate in lateral and longitudinal directions. The meander belt width assessment is a technique for planning and determining hazard limits for managing the risk of life and property due to river erosion and migration. The meander belt assessment includes reach delineation, planform determination and meandering geometry assessment. It is applied for Subwatershed Studies, SWM Development Limit, Watercourse Re-naturalization, Bridge/Culvert Replacement or Installation and Municipal Infrastructure Installation. If historic aerial photographs are available, the 100-year migration rate is determined to estimate the erosion setback. AHYDTECH has extensive experience in Mender Belt width and Erosion Hazard Limit Assessment in the southern Ontario.
+								</p>
+							</div>
+							<h3>Channel Restoration</h3>
+							<div>
+								<p>
+									Channel restoration process applies channel stability, dimensions, pattern, profile and biological and aquatic considerations to restore a stream, which will provide stable and natural fluvial process in the stream. Geomorphological, hydraulic and ecological degraded streams can have an appropriate management solution through stream restoration. Restoration project types are: Instream Habitat Enhancement, Reduction of Nutrient and Sediment Load,Channel Stabilization, Naturalization of Degraded Urban Stream, Remediation of Downstream Flooding, Improve Aesthetic and Recreation Facility.
+								</p>
+							</div>
+							<h3>Field Assessment &amp; Monitoring</h3>
+							<div>
+								<p>
+									Field geomorphic survey and assessment are conducted to classify existing stream type and to delineate reaches based on physical parameters such as landform, land use, geological features, floodplain, channel dimensions, sediment sizes, bed forms, and slope. Rapid field assessments (RGA, RSAT) are qualitative techniques based on the presence and (or) absence of key indicators of channel instability, and ecological health and function of a stream. These techniques are applied to understand the existing geomorphic conditions and to do detail geomorphic assessment. Field data collection also includes topographic survey, stream erosion measurement and flow monitoring. AHYDTECH staff has experience in the stream field data collection including topographic survey, rapid assessment, erosion measurement and flow monitoring.
+								</p>
+							</div>
+							<h3>Sediment Transport &amp; Modeling</h3>
+							<div>
+								<p>
+									Fill in content here.
+								</p>
+							</div>
+							<h3>River &amp; Stream Scour and Monitoring</h3>
+							<div>
+								<p>
+									Fill in content here.
+								</p>
+							</div>
+						</div>
 					</div>
-					<h3>Hydrologic Modeling</h3>
+
+					<h3>Numerical Modeling</h3>
 					<div>
 						<p>
-							The hydrologic cycle and hydrologic responses of watershed, subwatershed or catchment can be simulated by hydrologic models. The models are applied for hydrologic prediction and for understanding hydrologic processes. There are two major types hydrolgic models: Stochastic Model and Physical-based or Deterministic Model. the deterministic hydrology models can be subdivided into single-event models and continuous simulation models; they provide representation of surface runoff, interflow, infiltration, groundwater recharge, gorundwater flow, evapotranspiration and stream flow. AHYDTECH has resources to provide innovative techniques and solutions through applying hydrologic models to make better predictions and to face the major challenges in water resources management.
+							Numerical modeling can be used to solve complex physical and geometric problems. AHYDTECH Geomorphic
+							has extensive experience working with numerical models. The company’s senior staff has developed 2D
+							hydrodynamic model coupled with 2D sediment transport model code. The models were applied to study
+							Cohesive River Bank Erosion mechanism. We also completed a study to compare 1D and 2D models for urban
+							flood hazard and floodplain mapping.
 						</p>
 					</div>
+
 					<h3>Environmental Hydraulics</h3>
 					<div>
 						<p>	
-							In the field of environmental hydraulics, AHYDTECH can provide services on environmental data analysis for coasts, estuaries, rivers, reservoirs and lakes. It can develop and apply hydraulic, hydrodynamic and sediment transport models to find solutions of potential problems.
-							The environmental hydraulic services include:
+							In the field of environmental hydraulics, AHYDTECH can provide services on environmental data analysis for coasts, estuaries, rivers, reservoirs and lakes. We can develop and apply hydraulic, hydrodynamic and sediment transport models to find the solutions to potential problems. We have experience developing 1D, 2D and 3D models for hydraulic, hydrodynamic, sediment transport and water quality constituents advection and dispersion. The environmental hydraulic services include:
 							<ul>
 								<li>Stream, Creek, River and Watershed Management</li>
 								<li>Flood Management and Dam Break Analysis</li>
@@ -89,18 +120,20 @@
 							</ul>
 						</p>
 					</div>
+
+					<!-- <h3>Hydrologic Modeling</h3>
+					<div>
+						<p>
+							The hydrologic cycle and hydrologic responses of watershed, subwatershed or catchment can be simulated by hydrologic models. The models are applied for hydrologic prediction and for understanding hydrologic processes. There are two major types hydrolgic models: Stochastic Model and Physical-based or Deterministic Model. the deterministic hydrology models can be subdivided into single-event models and continuous simulation models; they provide representation of surface runoff, interflow, infiltration, groundwater recharge, gorundwater flow, evapotranspiration and stream flow. AHYDTECH has resources to provide innovative techniques and solutions through applying hydrologic models to make better predictions and to face the major challenges in water resources management.
+						</p>
+					</div>
+
 					<h3>Stormwater Management</h3>
 					<div>
 						<p>
 							Ahydtech offers stormwater management studies including design and plan for stormwater management, subdivision study, site plan and offcial plan amendment.
 						</p>
-					</div>
-					<h3>Numerical Modeling</h3>
-					<div>
-						<p>
-							We have expertise to develop Hydrologic, Hydraulic and Sediment Transport Models. 
-						</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>

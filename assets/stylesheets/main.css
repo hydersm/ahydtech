@@ -111,8 +111,14 @@ h1 {
   line-height: 44px;
 }
 
-h3, h2 {
-  font-size: 21px;
+h2 {
+  font-size: 24px;
+  color: rgb(26, 95, 131);
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 h4 {
@@ -302,30 +308,73 @@ ul {
 
 /* expand and collapse */
 
-#accordion h3 {
+.accordion h3 {
   border-bottom: 2px solid #555;
   padding: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
-#accordion .ui-accordion-header-active {
+.accordion .ui-accordion-header-active {
   border-bottom: 4px solid rgb(26, 95, 131);
   color: rgb(26, 95, 131);
   font-weight: normal;
 }
 
-#accordion h3:hover {
+.accordion h3:hover {
   border-bottom: 4px solid rgb(26, 95, 131);
   color: rgb(26, 95, 131);
   font-weight: normal;
 }
 
-#accordion p {
+.accordion p {
   padding: 0;
   padding-bottom: 15px;
   margin: 0;
 }
 
-#accordion .ui-state-focus {
+.accordion ul {
+  margin-bottom: 15px;
+}
+
+.accordion .ui-state-focus {
   outline: none;
+}
+
+.bullets {
+  margin-bottom: 15px;
+}
+
+.bullets p {
+  padding-top: 15px;
+}
+
+.bullets h3, .bullets div{
+  margin-left: 1em;
+}
+
+.bullets h3{
+  /*border-bottom: 2px solid #555;*/
+  border-bottom: 0px;
+  font-size: 16px;
+  display: list-item;
+  list-style: circle;
+  /*margin-bottom: 10px;*/
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.bullets h3:hover {
+  /*border-bottom: 2px solid rgb(26, 95, 131);*/
+  border-bottom: 0px;
+  color: rgb(26, 95, 131);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.bullets .ui-accordion-header-active {
+  /*border-bottom: 2px solid rgb(26, 95, 131);*/
+  border-bottom: 0px;
+  color: rgb(26, 95, 131);
+  text-decoration: underline;
+  font-weight: normal;
 }
