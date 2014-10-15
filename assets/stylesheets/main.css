@@ -50,7 +50,7 @@ table {
 
 body {
   background-color: rgb(31, 96, 130);
-  color: #555;
+  color: #222;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -101,7 +101,7 @@ h3 {
 
 h4 {
   display: inline-block;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #222;
   padding-bottom: 1px;
   margin-bottom: 4px;
 }
@@ -313,7 +313,7 @@ ul {
 /* expand and collapse */
 
 .accordion h3 {
-  border-bottom: 2px solid #555;
+  border-bottom: 2px solid #222;
   padding: 0px;
   padding-bottom: 2px;
 }
