@@ -7,33 +7,17 @@
         <meta charset="utf-8">
         <title>Ahydtech Geomorphic - Home</title>
         <link rel="stylesheet" href="assets/stylesheets/main.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-        <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"> -->
+        <link type="text/css" rel="stylesheet" href="assets/stylesheets/lightslider.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-        <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
-        <script>
-            $(function() {
-            $(".accordion").accordion({
-                heightStyle: "content",
-                autoHeight: false,
-                collapsible: true,
-                active: false,
-            });
-            $(".accordion2").accordion({
-                heightStyle: "content",
-                autoHeight: false,
-                collapsible: true,
-                active: false,
-            });
-            });
-        </script>
+        <script src="assets/scripts/lightslider.js"></script>
+        <script src="assets/scripts/init.js"></script>
     </head>
     <body>
         <header class="primary-header container group">
             <a href="index.html"><img class="logo_image" src="assets/images/ahydtechlogocoloredsmall.png"></a>
             <h1 class="logo">Ahydtech<br>Geomorphic</h1>
-
             <h3 class="tagline">Advanced Hydrology Hydraulic Geomorphology</h3>
             <nav class="nav primary-nav">
                 <a class="nav-current-page" href="index.html">Home</a>
@@ -46,19 +30,22 @@
         </header>
         <section class="row">
             <div class="container">
+                <ul id="lightSlider">
+                    <li><img src="assets/images/homeFluvial1.png" style="width:100%"/></li>
+                    <li><img src="assets/images/homeFluvial2.png" style="width:100%"/></li>
+                    <li><img src="assets/images/homeFluvial3.png" style="width:100%"/></li>
+                    <li><img src="assets/images/homeFluvial4.png" style="width:100%"/></li>
+                </ul>
                 <h2>Home</h2>
-                
                 <p>
                     AHYDTECH Geomorphic is a Canadian company located in Guelph, Ontario. The company is at the front of advanced and innovative technology in Fluvial Geomorphology, Coastal Engineering, Hydrology, Hydraulic Monitoring, Stormwater Management and Environmental Assessment. AHYDTECH can provide services in Field Measurement, Hydrologic and Hydraulic Modeling, Numerical Modeling, Coastal Engineering and Municipal Environmental Assessment. Through the application of innovative science and fluvial geomorphic principles, AHYDTECH Geomorphic can provide the highest quality of services to all of our clients.
                 </p>
-
                 <div class="accordion">
                     <h3>Fluvial Geomophology</h3>
                     <div>
                         <p>
                             AHYDTECH Geomorphic staff has highly qualified expertise in fluvial geomorphology. The company is dedicated to providing services on critical issues of fluvial processes in natural environments. AHYDTECH staff have experience in the following fluvial geomorphology methods:
                         </p>
-                        
                         <div class="accordion2 bullets">
                             <h3>Natural Channel Design-Channel Restoration</h3>
                             <div>
@@ -98,7 +85,6 @@
                             </div>
                         </div>
                     </div>
-
                     <h3>Numerical Modeling</h3>
                     <div>
                         <p>
@@ -109,7 +95,6 @@
                             flood hazard and floodplain mapping.
                         </p>
                     </div>
-
                     <h3>Environmental Hydraulics</h3>
                     <div>
                         <p> 
