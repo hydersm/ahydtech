@@ -45,16 +45,18 @@
     font-weight: 900;
     font-family: "Libre Baskerville", serif;
     position: absolute;
-    top: 565px; 
-    right: 20px; 
+    top: 610px; 
+    right: 100px; 
     color: white; 
     border-top: white solid 2px;
     border-bottom: white solid 2px;
     border-left: white solid 2px;
     border-right: white solid 2px;
     font-size: 10px; 
-    opacity: 0.4;
+    opacity: 1;
 }
+
+
 
 
 
@@ -656,11 +658,15 @@ h3 {
 .slider {
     display: flex;
     overflow-x: hidden;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     max-height: 600px;
- 
     border-radius: 0.5rem;
+}
+
+.slide {
+    max-height: 600px;
 }
 
 
@@ -668,6 +674,7 @@ h3 {
 
 .slider img {
     width: 700px;
+    height: 600px;
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;  
