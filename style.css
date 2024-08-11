@@ -22,6 +22,34 @@
    
 }
 
+.overlay-text {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 690px; 
+    right: 15px; 
+    color: white; 
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    font-size: 10px; 
+    opacity: 0.5;
+}
+
+.overlay-text2 {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 720px; 
+    right: 15px; 
+    color: white; 
+    font-size: 10px; 
+    opacity: 0;
+}
+
 .services-header {
     min-height: 100vh;
     width: 100%;
@@ -418,6 +446,10 @@ h3 {
 
 .slider-img.active .details p, .slider-img.active .details h2 {
     display: block;
+}
+
+.slider-img.active .overlay-text2 {
+    opacity: 0.8;
 } 
 
 

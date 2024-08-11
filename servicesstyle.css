@@ -22,6 +22,40 @@
    
 }
 
+.overlay-text {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 690px; 
+    right: 15px; 
+    color: rgb(0, 0, 0); 
+    opacity: 0.3;
+    border-top: rgb(34, 32, 32) solid 2px;
+    border-bottom: BLACK solid 2px;
+    border-left: BLACK solid 2px;
+    border-right: BLACK solid 2px;
+    font-size: 10px; 
+}
+
+.overlay-text2 {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 420px; 
+    right: 15px; 
+    color: rgb(125, 203, 203); 
+    opacity: 0;
+    border-top: rgb(125, 203, 203) solid 2px;
+    border-bottom: rgb(125, 203, 203) solid 2px;
+    border-left: rgb(125, 203, 203) solid 2px;
+    border-right: rgb(125, 203, 203) solid 2px;
+    font-size: 10px; 
+}
+
+
+
 
 body {
     background: rgb(220, 238, 255);
@@ -404,7 +438,11 @@ h3 {
 
 .slider-img.active .details p, .slider-img.active .details h2 {
     display: block;
-} 
+}
+
+.slider-img.active .overlay-text2 {
+    opacity: 0.8;
+}
 
 
 

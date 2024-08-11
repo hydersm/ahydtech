@@ -21,6 +21,24 @@
    
 }
 
+.overlay-text {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 690px; 
+    right: 15px; 
+    color: rgb(0, 0, 0); 
+    opacity: 0.3;
+    border-top: rgb(34, 32, 32) solid 2px;
+    border-bottom: BLACK solid 2px;
+    border-left: BLACK solid 2px;
+    border-right: BLACK solid 2px;
+    font-size: 10px; 
+}
+
+
+
 
 
 body {
@@ -187,6 +205,7 @@ p {
     
 
 }
+
 
 
 .software-col ul li {

@@ -24,6 +24,40 @@
    
 }
 
+.overlay-text {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 690px; 
+    right: 15px; 
+    color: white; 
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    font-size: 10px; 
+    opacity: 0.5;
+}
+
+.overlay-text2 {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 565px; 
+    right: 20px; 
+    color: white; 
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    font-size: 10px; 
+    opacity: 0.4;
+}
+
+
+
 
 body {
     background: rgb(220, 238, 255);
@@ -628,6 +662,7 @@ h3 {
  
     border-radius: 0.5rem;
 }
+
 
 
 

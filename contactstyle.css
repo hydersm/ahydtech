@@ -26,6 +26,22 @@
     border-top: rgb(22, 96, 106) solid 2px;
 }
 
+.overlay-text {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 690px; 
+    right: 15px; 
+    color: white; 
+    opacity: 0.6;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    font-size: 10px; 
+}
+
 
 body {
     background: rgb(220, 238, 255);

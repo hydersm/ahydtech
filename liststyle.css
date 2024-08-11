@@ -27,6 +27,8 @@
 }
 
 
+
+
 body {
     background: rgb(220, 238, 255);
     overflow-x: hidden; 
@@ -490,6 +492,42 @@ h3 {
 
 .slider-img.active .details a {
     opacity: 1;
+}
+
+.slider-img.active .overlay-text2 {
+    opacity: 0.7;
+}
+
+.overlay-text {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 690px; 
+    right: 15px; 
+    color: white; 
+    opacity: 0.6;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    font-size: 10px; 
+}
+
+.overlay-text2 {
+    padding:0px;
+    font-weight: 900;
+    font-family: "Libre Baskerville", serif;
+    position: absolute;
+    top: 720px; 
+    left: 15px; 
+    color: white; 
+    opacity: 0;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    font-size: 10px; 
 }
 
 
