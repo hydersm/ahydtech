@@ -5,6 +5,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .services-header {
     min-height: 100vh;
@@ -22,20 +26,23 @@
    
 }
 
-.overlay-text {
+.overlay-text a {
     padding:0px;
     font-weight: 900;
     font-family: "Libre Baskerville", serif;
     position: absolute;
-    top: 680px; 
-    right: 15px; 
-    color: rgb(0, 0, 0); 
-    opacity: 0.3;
-    border-top: rgb(34, 32, 32) solid 2px;
-    border-bottom: BLACK solid 2px;
-    border-left: BLACK solid 2px;
-    border-right: BLACK solid 2px;
-    font-size: 10px; 
+    top: 650px; 
+    right: 30px; 
+    color: rgb(167, 239, 252); ; 
+    font-size: 28px; 
+    opacity: 0.8;
+}
+
+.overlay-text a:hover {
+    color: black;
+    cursor: pointer;
+    opacity: 1;
+
 }
 
 .overlay-text2 {
@@ -126,7 +133,9 @@ nav-img {
 
 .text-box h1 {
     font-size: 58px;
-    color: rgb(40, 107, 114);
+    color: black;
+    background: white;
+    opacity: 0.7;
 }
 
 .text-box p {
@@ -134,8 +143,8 @@ nav-img {
     font-size: 16px;
     font-weight: 600;
     color: black;
-    background-color: whitesmoke;
-    opacity: 0.6;
+    background-color: white;
+    opacity: 0.7;
 }
 
 .hero-btn {
@@ -144,7 +153,7 @@ nav-img {
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    background: transparent;
+    background: rgb(152,153,252);
     position: relative;
     cursor: pointer;
 

@@ -5,6 +5,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 .list-header {
@@ -106,6 +110,8 @@ nav-img {
 .text-box h1 {
     font-size: 58px;
     color: white;
+    background: rgb(19, 80, 49);
+    opacity: 0.8;
     
  
 }
@@ -114,9 +120,9 @@ nav-img {
     margin: 10px 0 40;
     font-size: 16px;
     font-weight: 600;
-    color: rgb(6, 39, 47);
-    background-color: whitesmoke;
-    opacity: 0.5;
+    color: white;
+    background-color: rgb(19, 80, 49);
+    opacity: 0.6;
     
 }
 
@@ -126,7 +132,7 @@ nav-img {
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    background: rgb(14, 70, 63);
+    background: rgb(14, 70, 47);
     position: relative;
     cursor: pointer;
 
@@ -498,20 +504,23 @@ h3 {
     opacity: 0.7;
 }
 
-.overlay-text {
+.overlay-text a {
     padding:0px;
     font-weight: 900;
     font-family: "Libre Baskerville", serif;
     position: absolute;
-    top: 680px; 
-    right: 15px; 
-    color: white; 
-    opacity: 0.6;
-    border-top: white solid 2px;
-    border-bottom: white solid 2px;
-    border-left: white solid 2px;
-    border-right: white solid 2px;
-    font-size: 10px; 
+    top: 650px; 
+    right: 30px; 
+    color: rgb(167, 239, 252); ; 
+    font-size: 28px; 
+    opacity: 0.9;
+}
+
+.overlay-text a:hover {
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+
 }
 
 .overlay-text2 {
