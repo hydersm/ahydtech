@@ -14,7 +14,7 @@ html {
 .list-header {
     min-height: 100vh;
     width: 100%;
-    background-image: url('images/list.png');
+    background-image: url('images/banner.jpeg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -72,11 +72,7 @@ nav-img {
     text-decoration: none;
     font-size: 14px;
     font-weight: 900;
-    background-color: rgb(14, 68, 14);
-    opacity: 0.9;
-   
-  
- 
+    border-bottom: white 1px solid;
 
 }
 
@@ -110,20 +106,17 @@ nav-img {
 .text-box h1 {
     font-size: 58px;
     color: white;
-    background: rgb(19, 80, 49);
+    background:rgb(4, 50, 66);
     opacity: 0.8;
-    
- 
 }
 
 .text-box p {
     margin: 10px 0 40;
     font-size: 16px;
-    font-weight: 600;
     color: white;
-    background-color: rgb(19, 80, 49);
-    opacity: 0.6;
-    
+    font-weight: 600;
+    background-color: rgb(4, 50, 66);
+    opacity: 0.8;
 }
 
 .hero-btn {
@@ -132,11 +125,9 @@ nav-img {
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    background: rgb(14, 70, 47);
+    background: rgb(5, 61, 79);
     position: relative;
     cursor: pointer;
-
-
 }
 
 .hero-btn:hover {

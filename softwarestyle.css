@@ -12,7 +12,7 @@ html {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url('images/software.png');
+    background-image: url('images/banner.jpeg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -82,12 +82,11 @@ nav-img {
 }
 
 .nav-links ul li a {
-    color: rgb(10, 54, 75);
+    color: white;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 600;
-    background-color: whitesmoke;
-    opacity: 0.9;
+    font-weight: 900;
+    border-bottom: white 1px solid;
 
 }
 
@@ -119,18 +118,18 @@ nav-img {
 
 .text-box h1 {
     font-size: 58px;
-    color: rgb(16, 53, 57);
-    background: white;
+    color: white;
+    background:rgb(4, 50, 66);
     opacity: 0.8;
 }
 
 .text-box p {
     margin: 10px 0 40;
     font-size: 16px;
+    color: white;
     font-weight: 600;
-    color: rgb(6, 39, 47);
-    background-color: white;
-    opacity: 0.7;
+    background-color: rgb(4, 50, 66);
+    opacity: 0.8;
 }
 
 .hero-btn {
@@ -139,7 +138,7 @@ nav-img {
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    background: transparent;
+    background: rgb(5, 61, 79);
     position: relative;
     cursor: pointer;
 
